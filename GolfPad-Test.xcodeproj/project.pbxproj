@@ -16,6 +16,8 @@
 		3D726EB729E7FBAA0052CB27 /* GolfPad_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D726EB629E7FBAA0052CB27 /* GolfPad_TestTests.swift */; };
 		3D726EC129E7FBAA0052CB27 /* GolfPad_TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D726EC029E7FBAA0052CB27 /* GolfPad_TestUITests.swift */; };
 		3D726EC329E7FBAA0052CB27 /* GolfPad_TestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D726EC229E7FBAA0052CB27 /* GolfPad_TestUITestsLaunchTests.swift */; };
+		3D726ED029E82C710052CB27 /* MainPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D726ECF29E82C710052CB27 /* MainPresenter.swift */; };
+		3D726ED229E82F210052CB27 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D726ED129E82F210052CB27 /* UIViewControllerExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		3D726EBC29E7FBAA0052CB27 /* GolfPad-TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GolfPad-TestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D726EC029E7FBAA0052CB27 /* GolfPad_TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GolfPad_TestUITests.swift; sourceTree = "<group>"; };
 		3D726EC229E7FBAA0052CB27 /* GolfPad_TestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GolfPad_TestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3D726ECF29E82C710052CB27 /* MainPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPresenter.swift; sourceTree = "<group>"; };
+		3D726ED129E82F210052CB27 /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				3D726EA829E7FBA90052CB27 /* Assets.xcassets */,
 				3D726EAA29E7FBA90052CB27 /* LaunchScreen.storyboard */,
 				3D726EAD29E7FBA90052CB27 /* Info.plist */,
+				3D726ECF29E82C710052CB27 /* MainPresenter.swift */,
+				3D726ED129E82F210052CB27 /* UIViewControllerExtension.swift */,
 			);
 			path = "GolfPad-Test";
 			sourceTree = "<group>";
@@ -260,7 +266,9 @@
 			files = (
 				3D726EA429E7FBA60052CB27 /* ViewController.swift in Sources */,
 				3D726EA029E7FBA60052CB27 /* AppDelegate.swift in Sources */,
+				3D726ED229E82F210052CB27 /* UIViewControllerExtension.swift in Sources */,
 				3D726EA229E7FBA60052CB27 /* SceneDelegate.swift in Sources */,
+				3D726ED029E82C710052CB27 /* MainPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
